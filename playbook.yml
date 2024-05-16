@@ -9,5 +9,5 @@
 
     - name: Hello World
       debug:
-        msg: password
+        var: password
       ignore_errors: true
