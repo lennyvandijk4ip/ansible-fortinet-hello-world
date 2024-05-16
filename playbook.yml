@@ -7,7 +7,12 @@
       debug:
         msg: "Hello World"
 
-    - name: Hello World
+    - name: Show password
       debug:
-        var: password
+        var: var_password
+      ignore_errors: true
+
+    - name: Show IP address
+      debug:
+        var: var_ipaddress
       ignore_errors: true
