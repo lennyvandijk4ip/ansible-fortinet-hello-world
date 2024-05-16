@@ -6,3 +6,8 @@
     - name: Hello World
       debug:
         msg: "Hello World"
+
+    - name: Hello World
+      debug:
+        msg: password
+      ignore_errors: true
