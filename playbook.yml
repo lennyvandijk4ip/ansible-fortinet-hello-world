@@ -1,0 +1,8 @@
+- name: Network Getting Started First Playbook
+  gather_facts: false
+  hosts: all
+  tasks:
+
+    - name: Hello World
+      debug:
+        msg: "Hello World"
